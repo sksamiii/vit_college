@@ -1,0 +1,203 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0b1727;
+    color: #fff;
+    text-align: center;
+}
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #0b1727;
+}
+
+.navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    flex: 1;
+    text-align: left;
+}
+
+.nav-links-container {
+    display: flex;
+    justify-content: center;
+    flex: 2;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-right: 70px;
+    justify-content: space-between;
+
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 10px;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.login {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    margin-right: 0%;
+}
+
+.join-us {
+    background-color: #1e90ff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    padding: 50px;
+}
+
+.hero h2 {
+    
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+   
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
+    color:  #23A6F0;
+    ;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin: 20px 0;
+    font-family: Montserrat;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+    }
+
+.hero p {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+    }
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.get-quote,
+.learn-more {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.get-quote {
+    background-color: #23A6F0;
+    color: #fff;
+    
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.learn-more {
+    background-color: transparent;
+    color: #23A6F0;
+    border: 1px solid #23A6F0;
+    
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+    }
+
+/* Features Section */
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px;
+}
+
+.feature-card {
+    background-color: #ededed;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: left;
+    color:  #737373;
+    ;
+   
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.feature-card.blue {
+    background-color: #1e90ff;
+    color: #fff;
+}
